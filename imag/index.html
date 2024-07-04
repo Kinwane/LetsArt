@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">LISTA DE PRODUTOS</div>
+        <div class="listproduct"></div>
+
+    </div>
+    <script>
+        let produtos = null;
+        fetch(produtos.json)
+        .then(response => response.json())
+        .then(data=> {
+            produtos = data;
+            console.log(produtos);
+            addDataToHTML();
+        })
+        //add produto
+        let listproduct = document.querySelector('listproduct');
+        function addDataToHTML(){
+            produtos.forEach(product => {
+                let newProduct = document.createElement('a');
+                newProduct.href = '/detail.html?id=' + product.id;
+                newProduct.classList.add('item');
+                newProduct.innerHTML = `
+                    <img src="${product.image}">
+                `;
+                listproduct.appendChild(newProduct);  
+            })
+        }
+    </script>
+    
+</body>
+</html>

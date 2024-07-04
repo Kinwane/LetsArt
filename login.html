@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login e Cadastro</title>
+  <link rel="stylesheet" href="loginstyle.css">
+  <script src="Js/login.js"></script>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header>
+            <div class="logo"> 
+                <a href="galeria.html"><img src="LOGO1.png" alt="letsart" ></a> 
+            </div>
+        
+     </header>
+  <div class="maior">
+   <div class="wrapper">
+    <form action="">
+        <h1>Login</h1>
+        <div class="input-box">
+            <input type="email" placeholder="Username/Email" name="email" id="email">
+           <!-- <i class='bx bxs-user'></i> -->
+        </div>
+        <div class="input-box">
+            <input type="password" placeholder="Password" name="password"  id="password">
+            <!-- <i class='bx bxs-lock-alt' ></i> -->
+        </div>
+        <div class="remember">
+            <label for=""><input type="checkbox">Lembrar-me</label>
+            <a href="">Esqueceu a password?</a>
+        </div>
+        <input type="button" id="loginButton" value="Login" class="btn">
+        <div class="register-link">
+            <p>Não tem uma conta?<a href="registrar.html">Registrar</a></p>
+        </div>
+    </form>
+    <div class="social-login">
+        <button id="googleLogin" class="social-button">Login com Google</button>
+        <button id="facebookLogin" class="social-button">Login com Facebook</button>
+    </div>
+    <div id="confirmationMessage" style="display: none;">
+        <p>Login realizado com sucesso!</p>
+    </div>
+   </div>
+ </div>
+ <script src="https://apis.google.com/js/platform.js" async defer></script>
+ <!-- SDK do Facebook -->
+ <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js"></script>
+ <meta name="https://console.cloud.google.com/apis/credentials/oauthclient/364731968746-t971ounf3ijc0sjueifra5hb59d49o95.apps.googleusercontent.com?authuser=1&project=letsart-428310" content="364731968746-t971ounf3ijc0sjueifra5hb59d49o95.apps.googleusercontent.com">
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ <script src="Js/login.js"></script>
+
+</body>
+</html>

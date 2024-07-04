@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lets Art Gallery</title>
+    <link rel="stylesheet" href="galeria.css">
+    <script src="script.js"></script>
+    <script src="Js/test.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+<body>
+    <!--AREA DO HEADER-->
+      
+     <header>
+        <nav class="navegador">
+            <div class="logo"> 
+                <a href="galeria.html"><img src="LOGO1.png" alt="letsart" ></a> 
+            </div>
+            <div class="list">
+                <ul>
+                    <li class="item"> <a href="galeria.html">Ínicio</a></li>
+                    <li class="item"> <a href="pinturas.html">Pinturas </a></li>
+                    <li class="item"> <a href="esculturas.html">Escultura </a></li>
+                    <li class="item"> <a href="desenhos.html">Desenhos </a></li>
+                    <li class="item"> <a href="fotografias.html">Fotografias</a></li>
+                    <li class="item"> <a href="artistas.html">Artistas</a></li>
+                    <li class="item"> <a href="contatos.html">Contactos </a></li>
+                </ul>
+            </div>
+            <div class="button-log">
+                <button><a href="login.html">Entrar</a></button>
+
+            </div>
+            <div class="mobile-icon">
+                <button  onclick="menuShow()"><img class="icon" width="52px" height="52px" src="icone.jpg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="item"> <a href="galeria.html">Ínicio</a></li>
+                <li class="item"> <a href="pinturas.html">Pinturas </a></li>
+                <li class="item"> <a href="esculturas.html">Escultura </a></li>
+                <li class="item"> <a href="desenhos.html">Desenhos </a></li>
+                <li class="item"> <a href="fotografias.html">Fotografias</a></li>
+                <li class="item"> <a href="artistas.html">Artistas</a></li>
+                <li class="item"> <a href="contatos.html">Contactos </a></li>
+            </ul>
+            <div class="button-log">
+                <button><a href="login.html">Entrar</a></button>
+    
+            </div>
+        </div>
+        
+     </header>
+     <HR ALIGN=center class="linha" WIDTH=100% SIZE=3 COLOR=black NOSHADE>
+  
+    <!--Banner-->
+    
+   
+    <!--<div class="slider">
+        <div class="myslider fade">
+            <div class="txt">
+                <h1>Lets ART</h1>
+                <p>GALERIA DE ARTE ONLINE<br> A sua Galeria online</p>
+            </div>
+            <img src="democrat1.jpg" alt="imagem1">
+        </div>
+        <div class="myslider fade">
+            <div class="txt">
+                <h1>Promoções</h1>
+                <p>Adira<br> já!</p>
+            </div>
+            <img src="bannered.png" alt="imagem1">
+
+        </div>
+        <div class="myslider fade">
+            <div class="txt">
+                <h1>Lets ART</h1>
+                <p>GALERIA DE ARTE ONLINE<br> A sua Galeria online</p>
+            </div>
+            <img src="banner.jpg" alt="imagem1">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="dotsbox" style="text-align: center;">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+    </div>-->
+    <div class="banner">
+
+        <!--<input type="radio" name="slide" class="slide1">
+        <input type="radio" name="slide" class="slide2">
+        <input type="radio" name="slide" class="slide3">
+        <div class="slides">
+            <div class="overflow">
+                <div class="inner">
+                    <div class="slide-slide1">
+                        <div class="slide-content">
+                            <h2>Slide1</h2>
+                            <p>conteudo 1</p>
+                        </div>
+                    </div>
+                    <div class="slide-slide2">
+                        <div class="slide-content">
+                            <h2>Slide2</h2>
+                            <p>conteudo 2</p>
+                        </div>
+                    </div>
+                    <div class="slide-slide3">
+                        <div class="slide-content">
+                            <h2>Slide3</h2>
+                            <p>conteudo 3</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+        <div class="banner-text"><h1>GALERIA DE ARTE ONLINE</h1></div>
+    </div>
+    <!--CORPO-->
+    <main>
+
+        <!--Banner-->
+
+    <!--CORPO-->
+
+        <div class="descricao">
+            <h1>GALERIA ONLINE</h1>
+            <p>Descubra pinturas, fotografais, esculturas e muita arte em nossas coleções. Desfrute de nossa seleção de obras de arte </p>
+                <p>originais e impressões de alta qualidade que farão presentes perfeitos ou decorarão suas paredes com estilo!</p>
+        </div>
+        <div class="galeria-container">
+            <img src="imag/WW.png" alt="imagem1">
+        </div>
+
+        <!--IMAGENS-->
+        <div class="descricao-img">
+            <h1>EXPOSIÇÃO</h1>
+            <p>Acompanhe e desfrute das melhores obras dos mais variados artistas e tipos de arte.</p>
+        </div>
+        <div class="gallery">
+            <div class="image">
+              <a href=""><img src="imag/Ganiyat.jpg" class="galeria-items" alt="Imagem 1"></a>
+              <div class="description">
+                <h1>Ganiyat</h1>
+                <p>"The trifolium girl"</p>
+                <p>Oleo em tela | 121x93 cm</p>
+              </div>
+            </div>
+            <div class="image">
+              <a href=""><img src="imag/paresh.jpg" class="galeria-items" alt="Imagem 2"></a>
+              <div class="description"><h1>Caio Cezar</h1>
+                <p>"Nevua"</p>
+                <p>Oleo em tela | 80x97 cm</p>
+              </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/praia_da_saudade.png" class="galeria-items" alt="Imagem 3"></a>
+                <div class="description"><h1>Caio Cezar</h1>
+                  <p>"Praia da daudade"</p>
+                  <p>Fotografia | 121x100 cm</p>
+                </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/cidadededeus.jpg" class="galeria-items" alt="Imagem 4"></a>
+                <div class="description">
+                  <h1>UNKNOWN</h1>
+                  <p>"Cidade de Deus"</p>
+                  <p>Oleo em tela | 85x93 cm</p>
+                </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/img-90.jpg" class="galeria-items" alt="Imagem 5"></a>
+                <div class="description">
+                  <h1>Luigi</h1>
+                  <p>"The time"</p>
+                  <p>Oleo em tela | 85x93 cm</p>
+                </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/kid2.jpg" class="galeria-items" alt="Imagem 6"></a>
+                <div class="description">
+                  <h1>Renell</h1>
+                  <p>"Kid"</p>
+                  <p>Fotografia | 85x93 cm</p>
+                </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/grills.jpg" class="galeria-items" alt="Imagem 7"></a>
+                <div class="description">
+                  <h1>V01</h1>
+                  <p>"Grills"</p>
+                  <p>Ilustration | 121x93 cm</p>
+                </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/Flowers.jpg" class="galeria-items" alt="Imagem 8"></a>
+                <div class="description">
+                  <h1>Kinwane Monteiro</h1>
+                  <p>"Flowers, i really tried to make flowers and that's it"</p>
+                  <p>Acrilico em tela | 121x93 cm</p>
+                </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/dress.jpg" class="galeria-items" alt="Imagem 9"></a>
+                <div class="description">
+                  <h1>V01</h1>
+                  <p>"Ancestral Motion"</p>
+                  <p>Acrilico em tela | 121x93 cm</p>
+                </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/oxaliz-i.jpg" class="galeria-items" alt="Imagem 10"></a>
+                <div class="description">
+                    <h1>Manuel Muanza</h1>
+                    <p>"AXOLIZ"</p>
+                    <p>Escultura | 85x93 cm</p>
+                </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/ruas.jpg" class="galeria-items" alt="Imagem 11"></a>
+                <div class="description">
+                    <h1>Denise Luís</h1>
+                    <p>"Vencedores"</p>
+                    <p>Oleo em tela | 121x93 cm</p>
+                </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/Namibe.jpg" class="galeria-items" alt="Imagem 12"></a>
+                <div class="description">
+                    <h1>Kim Praise</h1>
+                    <p>"Namibe desert"</p>
+                    <p>Fotografia | 121x93 cm</p>
+                </div>
+            </div>
+        </div>
+        <div class="descricao-img">
+            <h1>CLÁSSICOS PRETO E BRANCO</h1>
+            <p>Os clássicos Preto & Branco nunca saem de moda e dão sofisticação em qualquer espaço.</p>
+        </div>
+        <div class="gallery">
+            <div class="image">
+                <a href=""><img src="imag/praia_da_saudade.png" class="galeria-items" alt="Imagem 1"></a>
+                <div class="description"><h1>Caio Cezar</h1>
+                  <p>"Praia da daudade"</p>
+                  <p>Fotografia | 121x100 cm</p>
+                </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/maosemprece1.jpg" class="galeria-items" alt="Imagem 2"></a>
+                <div class="description">
+                  <h1>Caio Cezar</h1>
+                  <p>"Mãos em Prece"</p>
+                  <p>Fotografia | 94x93 cm</p>
+                </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/outono.jpg" class="galeria-items" alt="Imagem 3"></a>
+                <div class="description">
+                  <h1>José Bássit</h1>
+                  <p>"Outono"</p>
+                  <p>Fotografia | 94x93 cm</p>
+                </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/and there was silence.jpg" class="galeria-items" alt="Imagem 4"></a>
+                <div class="description">
+                  <h1>Jooa Ripper</h1>
+                  <p>"and there was silence"</p>
+                  <p>Fotografia | 94x93 cm</p>
+                </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/afeto.jpg" class="galeria-items" alt="Imagem 5"></a>
+                <div class="description">
+                  <h1>Joao Ripper</h1>
+                  <p>"Afeto"</p>
+                  <p>Fotografia | 94x93 cm</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="missao">
+            <p>Com a missão de criar um mercado online simples, seguro e lucrativo para artistas em todos os lugares,
+                 LetsArt criou a primeira galeria de arte virtual global em Angola e espera ter muitos visitantes.</p>
+            <p>LetsArt oferece uma vista exclusiva em obras de arte originais de artistas nacionais e internacionais emergentes e consagrados,
+                e espera fazer envio gratuito das obras para todo o mundo em 24 a 48h até sua porta.</p>
+            <p>EXPLORAR & COMECE A SEGUIR SEUS ARTISTAS FAVORITOS!</p>
+            <p>• Escultores, Fotógrafos, Pintores & Artistas angolanos contemporâneos • Artistas internacionais • Pintura abstrata (abstraction) • Venda de pinturas de arte</p>
+        </div>
+
+        <div class="props">
+            <h1>Artistas Em Destaque</h1>
+        </div>
+
+        <!--Destaque dos artistas-->
+        <div class="take">
+            <div class="slider">
+                <div class="slides">
+                    <div class="card">
+                        <img src="imag/datboy.png" alt="Foto do Trabalhador" class="card-img">
+                        <div class="card-content">
+                            <h2 class="card-title">João Silva</h2>
+                            <h3 class="card-subtitle">Artista Plastico</h3>
+                            <p class="card-description">João é um engenheiro de software com mais de 10 anos de experiência em desenvolvimento web e mobile.</p>
+                            <button class="card-button" onclick="toggleMoreInfo('info1')">Mais informações</button>
+                            <p class="card-more-info" id="info1" style="display: none;">João é especialista em JavaScript, React e Node.js. Ele gosta de trabalhar em projetos desafiadores e colaborativos.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="imag/dablio.png" alt="Foto do Trabalhador" class="card-img">
+                        <div class="card-content">
+                            <h2 class="card-title">Dablio Rodrigues</h2>
+                            <h3 class="card-subtitle">Designer Gráfico/Ilustrador</h3>
+                            <p class="card-description">Maria é uma designer gráfica talentosa com um olho para detalhes e design criativo.</p>
+                            <button class="card-button" onclick="toggleMoreInfo('info2')">Mais informações</button>
+                            <p class="card-more-info" id="info2" style="display: none;">Maria tem experiência em Adobe Creative Suite e design UX/UI.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="imag/calvearts.png" alt="Foto do Trabalhador" class="card-img">
+                        <div class="card-content">
+                            <h2 class="card-title">Carlos Lima</h2>
+                            <h3 class="card-subtitle">Ilustrador/Pintor</h3>
+                            <p class="card-description">Carlos é um analista de dados com habilidade em interpretar dados complexos e fornecer insights acionáveis.</p>
+                            <button class="card-button" onclick="toggleMoreInfo('info3')">Mais informações</button>
+                            <p class="card-more-info" id="info3" style="display: none;">Carlos é proficiente em SQL, Python e ferramentas de visualização de dados como Tableau.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="imag/calve.jpg" alt="Foto do Trabalhador" class="card-img">
+                        <div class="card-content">
+                            <h2 class="card-title">Calve</h2>
+                            <h3 class="card-subtitle">Gerente de Projetos</h3>
+                            <p class="card-description">Ana é uma gerente de projetos com vasta experiência em gestão de equipes e entrega de projetos no prazo.</p>
+                            <button class="card-button" onclick="toggleMoreInfo('info4')">Mais informações</button>
+                            <p class="card-more-info" id="info4" style="display: none;">Ana é certificada PMP e tem experiência em metodologias ágeis.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="dev.jpg" alt="Foto do Trabalhador" class="card-img">
+                        <div class="card-content">
+                            <h2 class="card-title">Bruno Costa</h2>
+                            <h3 class="card-subtitle">Desenvolvedor Front-End</h3>
+                            <p class="card-description">Bruno é um desenvolvedor front-end focado em criar interfaces de usuário intuitivas e responsivas.</p>
+                            <button class="card-button" onclick="toggleMoreInfo('info5')">Mais informações</button>
+                            <p class="card-more-info" id="info5" style="display: none;">Bruno domina HTML, CSS, JavaScript e frameworks como Angular e Vue.js.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="dev.jpg" alt="Foto do Trabalhador" class="card-img">
+                        <div class="card-content">
+                            <h2 class="card-title">Clara Pereira</h2>
+                            <h3 class="card-subtitle">Analista de Marketing</h3>
+                            <p class="card-description">Clara é uma analista de marketing com experiência em campanhas digitais e análise de dados de mercado.</p>
+                            <button class="card-button" onclick="toggleMoreInfo('info6')">Mais informações</button>
+                            <p class="card-more-info" id="info6" style="display: none;">Clara é especialista em SEO, Google Analytics e campanhas de mídia paga.</p>
+                        </div>
+                    </div>
+                </div>    
+                <button class="previous" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="next2" onclick="moveSlide(1)">&#10095;</button>
+             </div>
+        </div>
+    
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+    
+  <!--AREA DE RODAPE-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Sobre</h4>
+                    <ul>
+                        <li><a href="sobreNos.html">sobre nos</a></li>
+                        <li><a href="sobreNos.html">informaçoes legais</a></li>
+                        <li><a href="">nossos serviços</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Ver Arte</h4>
+                    <ul>
+                        <li><a href="galeria.html">Ultimas Obras</a></li>
+                        <li><a href="pinturas.html">Pinturas</a></li>
+                        <li><a href="esculturas.html">Escultura</a></li>
+                        <li><a href="desenhos.html">Desenhos</a></li>
+                        <li><a href="">Obras Originais</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Para quem?</h4>
+                    <ul>
+                        <li><a href="">Amantes de arte</a></li>
+                        <li><a href="artistas.html">Artistas</a></li>
+                        <li><a href="">Escultores</a></li>
+                        <li><a href="">Desenhistas</a></li>
+                        <li><a href="">Agente de Arte</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Siga-nos</h4>
+                    <div class="midia">
+                        <a href="https://www.facebook.com/?hrc=1&paipv=0&eav=Afa0cQKyYNvMSW9lsu97sN9BYknx1Y1yTCMDWRnmYDibIDWCSVicOV4V3ii8nJlTQ5E&wtsid=rdr_0EdfAWiLEmjFaIDsY&refsrc=deprecated&_rdr"><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/killer.chx?igsh=MWdsMXFqOTRlYWQyNA%3D%3D&utm_source=qr"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <button id="back-to-top" onclick="scrollToTop()">Voltar ao Início</button>
+                </div>
+            </div>
+        </div>
+        <div class="bottom"><p>&copy; 2024 Kinwane Nascimento. All rights reserved</p></div>
+
+    </footer>
+
+</body>
+</html>

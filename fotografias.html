@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lets Art Gallery</title>
+    <link rel="stylesheet" href="galeria.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!--AREA DO HEADER-->
+      
+    <header>
+        <nav class="navegador">
+            <div class="logo"> 
+                <a href="galeria.html"><img src="LOGO1.png" alt="letsart" ></a> 
+            </div>
+            <div class="list">
+                <ul>
+                    <li class="item"> <a href="galeria.html">Ínicio</a></li>
+                    <li class="item"> <a href="pinturas.html">Pinturas </a></li>
+                    <li class="item"> <a href="esculturas.html">Escultura </a></li>
+                    <li class="item"> <a href="desenhos.html">Desenhos </a></li>
+                    <li class="item"> <a href="fotografias.html">Fotografias</a></li>
+                    <li class="item"> <a href="artistas.html">Artistas</a></li>
+                    <li class="item"> <a href="contatos.html">Contactos </a></li>
+                </ul>
+            </div>
+            <div class="button-log">
+                <button><a href="login.html">Entrar</a></button>
+
+            </div>
+            <div class="mobile-icon">
+                <button  onclick="menuShow()"><img class="icon" width="52px" height="52px" src="icone.jpg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="item"> <a href="galeria.html">Ínicio</a></li>
+                <li class="item"> <a href="pinturas.html">Pinturas </a></li>
+                <li class="item"> <a href="esculturas.html">Escultura </a></li>
+                <li class="item"> <a href="desenhos.html">Desenhos </a></li>
+                <li class="item"> <a href="fotografias.html">Fotografias</a></li>
+                <li class="item"> <a href="artistas.html">Artistas</a></li>
+                <li class="item"> <a href="contatos.html">Contactos </a></li>
+            </ul>
+            <div class="button-log">
+                <button><a href="">Entrar</a></button>
+    
+            </div>
+        </div>
+        
+     </header>
+     <HR ALIGN=center WIDTH=100% SIZE=3 COLOR=black NOSHADE>
+        
+    <!--CORPO-->
+    <main>
+        <!--IMAGENS-->
+        <div class="descricao-img">
+            <h1>FOTOGRAFIAS</h1>
+            <p>A bela e verdadeira demostração de artes manuais e plásticas. Acompanhe aqui as melhores obras.</p>
+        </div>
+        <div class="gallery">
+            <div class="image">
+              <a href=""><img src="imag/maosemprece1.jpg" class="galeria-items" alt="Imagem 1"></a>
+              <div class="description">
+                <h1>Caio Cezar</h1>
+                <p>"Mãos em Prece"</p>
+                <p>Fotografia | 94x93 cm</p>
+              </div>
+            </div>
+            <div class="image">
+              <a href=""><img src="imag/praia_da_saudade.png" class="galeria-items" alt="Imagem 2"></a>
+              <div class="description"><h1>Caio Cezar</h1>
+                <p>"Praia da daudade"</p>
+                <p>Fotografia | 121x100 cm</p>
+              </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/kid2.jpg" class="galeria-items" alt="Imagem 3"></a>
+                <div class="description"><h1>Renell</h1>
+                    <p>"Kid"</p>
+                    <p>Fotografia | 85x93 cm</p>
+                </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/arc.png" class="galeria-items" alt="Imagem 4"></a>
+                <div class="description">
+                  <h1>Joanna</h1>
+                  <p>"magnificit house"</p>
+                  <p>Fotografia | 85x93 cm</p>
+                </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/arq.jpg" class="galeria-items" alt="Imagem 5"></a>
+                <div class="description">
+                  <h1>Joanna</h1>
+                  <p>"magnificit house 2"</p>
+                  <p>Fotografia | 85x93 cm</p>
+                </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/Horizon.jpg" class="galeria-items" alt="Imagem 6"></a>
+                <div class="description">
+                  <h1>Joanna</h1>
+                  <p>"Horizonte"</p>
+                  <p>Fotografia | 85x93 cm</p>
+                </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/morgane.jpg" class="galeria-items" alt="Imagem 7"></a>
+                <div class="description">
+                  <h1>Barbara</h1>
+                  <p>"Seven, seven end seven, u're my lucky, im so glad to be with u"</p>
+                  <p>Fotografia | 121x93 cm</p>
+                </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/fatoumata.jpg" class="galeria-items" alt="Imagem 8"></a>
+                <div class="description">
+                  <h1>Fotoumata Diabaté</h1>
+                  <p>"Un tresser en on"</p>
+                  <p>Fotografia | 121x93 cm</p>
+                </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/madrid.jpg" class="galeria-items" alt="Imagem 8"></a>
+                <div class="description">
+                  <h1>Gabriel</h1>
+                  <p>"Halla Madrid!!! E nada más!"</p>
+                  <p>Fotografia | 121x93 cm</p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </main>
+
+
+
+
+    <!--FOOTER-->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Sobre</h4>
+                    <ul>
+                        <li><a href="sobreNos.html">sobre nos</a></li>
+                        <li><a href="sobreNos.html">informaçoes legais</a></li>
+                        <li><a href="">nossos serviços</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Ver Arte</h4>
+                    <ul>
+                        <li><a href="galeria.html">Ultimas Obras</a></li>
+                        <li><a href="pinturas.html">Pinturas</a></li>
+                        <li><a href="esculturas.html">Escultura</a></li>
+                        <li><a href="desenhos.html">Desenhos</a></li>
+                        <li><a href="">Obras Originais</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Para quem?</h4>
+                    <ul>
+                        <li><a href="">Amantes de arte</a></li>
+                        <li><a href="artistas.html">Artistas</a></li>
+                        <li><a href="">Escultores</a></li>
+                        <li><a href="">Desenhistas</a></li>
+                        <li><a href="">Agente de Arte</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Siga-nos</h4>
+                    <div class="midia">
+                        <a href="https://www.facebook.com/?hrc=1&paipv=0&eav=Afa0cQKyYNvMSW9lsu97sN9BYknx1Y1yTCMDWRnmYDibIDWCSVicOV4V3ii8nJlTQ5E&wtsid=rdr_0EdfAWiLEmjFaIDsY&refsrc=deprecated&_rdr"><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/killer.chx?igsh=MWdsMXFqOTRlYWQyNA%3D%3D&utm_source=qr"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <button id="back-to-top" onclick="scrollToTop()">Voltar ao Início</button>
+                </div>
+            </div>
+        </div>
+        <div class="bottom"><p>&copy; 2024 Kinwane Nascimento. All rights reserved</p></div>
+
+    </footer>
+
+
+</body>
+</html>

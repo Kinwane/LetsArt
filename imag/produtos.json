@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "The trifolium girl",
+        "price": 200,
+        "image": "imag/Ganiyat.jpg",
+        "descricao": "Oleo em tela | 121x93 cm"
+    },
+    {
+        "id": 2,
+        "name": "The trifolium girl",
+        "price": 200,
+        "image": "imag/paresh.jpg",
+        "descricao":"Oleo em tela | 121x93 cm"
+    },
+    {
+        "id": 3,
+        "name": "The trifolium girl",
+        "price": 200,
+        "image": "imag/praia_da_saudade.jpg",
+        "descricao":"Oleo em tela | 121x93 cm"
+    },
+    {
+        "id": 4,
+        "name": "The trifolium girl",
+        "price": 200,
+        "image": "imag/cidadededeus.jpg",
+        "descricao":"Oleo em tela | 121x93 cm"
+    }
+]

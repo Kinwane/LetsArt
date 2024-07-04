@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lets Art Gallery</title>
+    <link rel="stylesheet" href="galeria.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="pinturas.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!--AREA DO HEADER-->
+      
+    <header>
+        <nav class="navegador">
+            <div class="logo"> 
+                <a href="galeria.html"><img src="LOGO1.png" alt="letsart" ></a> 
+            </div>
+            <div class="list">
+                <ul>
+                    <li class="item"> <a href="galeria.html">Ínicio</a></li>
+                    <li class="item"> <a href="pinturas.html">Pinturas </a></li>
+                    <li class="item"> <a href="esculturas.html">Escultura </a></li>
+                    <li class="item"> <a href="desenhos.html">Desenhos </a></li>
+                    <li class="item"> <a href="fotografias.html">Fotografias</a></li>
+                    <li class="item"> <a href="artistas.html">Artistas</a></li>
+                    <li class="item"> <a href="contatos.html">Contactos </a></li>
+                </ul>
+            </div>
+            <div class="button-log">
+                <button><a href="login.html">Entrar</a></button>
+
+            </div>
+            <div class="mobile-icon">
+                <button  onclick="menuShow()"><img class="icon" width="52px" height="52px" src="icone.jpg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="item"> <a href="galeria.html">Ínicio</a></li>
+                <li class="item"> <a href="pinturas.html">Pinturas </a></li>
+                <li class="item"> <a href="esculturas.html">Escultura </a></li>
+                <li class="item"> <a href="desenhos.html">Desenhos </a></li>
+                <li class="item"> <a href="fotografias.html">Fotografias</a></li>
+                <li class="item"> <a href="artistas.html">Artistas</a></li>
+                <li class="item"> <a href="contatos.html">Contactos </a></li>
+            </ul>
+            <div class="button-log">
+                <button><a href="">Entrar</a></button>
+    
+            </div>
+        </div>
+        
+     </header>
+     <HR ALIGN=center WIDTH=100% SIZE=3 COLOR=black NOSHADE>
+        
+    <!--CORPO-->
+    <main>
+        <!--IMAGENS-->
+        <div class="descricao-img">
+            <h1>ESCULTURAS</h1>
+            <p>A bela e verdadeira demostração de artes manuais e plásticas. Acompanhe aqui as melhores obras.</p>
+        </div>
+        <div class="gallery">
+            <div class="image">
+              <a href=""><img src="imag/f2.jpg" class="galeria-items" alt="Imagem 1"></a>
+              <div class="description">
+                <h1>Mamahdu Serge</h1>
+                <p>"Trinite"</p>
+                <p>Escultura | 94x93 cm</p>
+              </div>
+            </div>
+            <div class="image">
+              <a href=""><img src="imag/miko.jpg" class="galeria-items" alt="Imagem 2"></a>
+              <div class="description"><h1>Karen Jennifer</h1>
+                <p>"Sure"</p>
+                <p>Escultura | 80x97 cm</p>
+              </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/madeira.jpg" class="galeria-items" alt="Imagem 3"></a>
+                <div class="description"><h1>Liquette-Gorbach</h1>
+                  <p>"Conta-me a tua história"</p>
+                  <p>Escultura | 121x100 cm</p>
+                </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="banner.jpg" class="galeria-items" alt="Imagem 4"></a>
+                <div class="description">
+                  <h1>UNAP</h1>
+                  <p>"The seat"</p>
+                  <p>Escultura | 85x93 cm</p>
+                </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/filosofo.jpg" class="galeria-items" alt="Imagem 5"></a>
+                <div class="description">
+                  <h1>Dmitryi</h1>
+                  <p>"O filosofo"</p>
+                  <p>Escultura | 85x93 cm</p>
+                </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/oxaliz-i.jpg" class="galeria-items" alt="Imagem 6"></a>
+                <div class="description">
+                  <h1>Manuel Muanza</h1>
+                  <p>"AXOLIZ"</p>
+                  <p>Escultura | 85x93 cm</p>
+                </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/027_2.jpg" class="galeria-items" alt="Imagem 7"></a>
+                <div class="description">
+                  <h1>Ornela Aguiar</h1>
+                  <p>"Red-candell"</p>
+                  <p>Escultura | 121x93 cm</p>
+                </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/angel.jpg" class="galeria-items" alt="Imagem 8"></a>
+                <div class="description">
+                  <h1>Nitoriana Albano</h1>
+                  <p>"Tha fully angel"</p>
+                  <p>Escultura | 121x93 cm</p>
+                </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/schepgrills.jpg" class="galeria-items" alt="Imagem 9"></a>
+                <div class="description">
+                  <h1>Vincent Mabuto</h1>
+                  <p>"The pretty girl"</p>
+                  <p>Escultura | 121x93 cm</p>
+                </div>
+            </div>
+            <div class="image">
+                <a href=""><img src="imag/pensador.jpg" class="galeria-items" alt="Imagem 10"></a>
+                <div class="description">
+                  <h1>Anknown author</h1>
+                  <p>"O pensador"</p>
+                  <p>Escultura | 121x93 cm</p>
+                </div>
+            </div>
+        </div>
+        <div class="missao">
+            <h1>As Esculturas</h1>
+            <p>Bem-vindo ao nosso mundo de esculturas contemporâneas, onde a arte encontra inovação e criatividade. 
+                Nossa coleção é cuidadosamente selecionada para atender ao seu gosto, estilo e preferências individuais. 
+                Entendemos que comprar arte não se trata apenas de possuir uma bela peça, mas também de investir em algo que 
+                tenha valor e significado. Nossas esculturas são feitas com uma variedade de materiais,<b> como bronze, cerâmica, vidro e metais,</b>
+                e muitas vezes são suportadas por pedestais ou montagens. Cada peça é única, e a visão e habilidade do artista são refletidas em cada detalhe.</p>
+            <p>LetsArt oferece uma vista exclusiva em <b>obras de arte originais de artistas nacionais e internacionais</b> emergentes e consagrados,
+                e espera fazer envio gratuito das obras para todo o mundo em 24 a 48h até sua porta.</p>
+            <p>EXPLORAR & COMECE A SEGUIR SEUS ARTISTAS FAVORITOS!</p>
+            <p>• Escultores, Fotógrafos, Pintores & Artistas angolanos contemporâneos • Artistas internacionais • Pintura abstrata (abstraction) • Venda de pinturas de arte</p>
+        </div>
+
+
+    </main>
+
+
+
+
+    <!--FOOTER-->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Sobre</h4>
+                    <ul>
+                        <li><a href="sobreNos.html">sobre nos</a></li>
+                        <li><a href="sobreNos.html">informaçoes legais</a></li>
+                        <li><a href="">nossos serviços</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Ver Arte</h4>
+                    <ul>
+                        <li><a href="galeria.html">Ultimas Obras</a></li>
+                        <li><a href="pinturas.html">Pinturas</a></li>
+                        <li><a href="esculturas.html">Escultura</a></li>
+                        <li><a href="desenhos.html">Desenhos</a></li>
+                        <li><a href="">Obras Originais</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Para quem?</h4>
+                    <ul>
+                        <li><a href="">Amantes de arte</a></li>
+                        <li><a href="artistas.html">Artistas</a></li>
+                        <li><a href="">Escultores</a></li>
+                        <li><a href="">Desenhistas</a></li>
+                        <li><a href="">Agente de Arte</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Siga-nos</h4>
+                    <div class="midia">
+                        <a href="https://www.facebook.com/?hrc=1&paipv=0&eav=Afa0cQKyYNvMSW9lsu97sN9BYknx1Y1yTCMDWRnmYDibIDWCSVicOV4V3ii8nJlTQ5E&wtsid=rdr_0EdfAWiLEmjFaIDsY&refsrc=deprecated&_rdr"><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/killer.chx?igsh=MWdsMXFqOTRlYWQyNA%3D%3D&utm_source=qr"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <button id="back-to-top" onclick="scrollToTop()">Voltar ao Início</button>
+                </div>
+            </div>
+        </div>
+        <div class="bottom"><p>&copy; 2024 Kinwane Nascimento. All rights reserved</p></div>
+
+    </footer>
+
+
+</body>
+</html>

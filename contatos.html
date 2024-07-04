@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lets Art Gallery</title>
+    <link rel="stylesheet" href="galeria.css">
+    <link rel="stylesheet" href="contatos.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!--AREA DO HEADER-->
+      
+    <header>
+        <nav class="navegador">
+            <div class="logo"> 
+                <a href="galeria.html"><img src="LOGO1.png" alt="letsart" ></a> 
+            </div>
+            <div class="list">
+                <ul>
+                    <li class="item"> <a href="galeria.html">Ínicio</a></li>
+                    <li class="item"> <a href="pinturas.html">Pinturas </a></li>
+                    <li class="item"> <a href="esculturas.html">Escultura </a></li>
+                    <li class="item"> <a href="desenhos.html">Desenhos </a></li>
+                    <li class="item"> <a href="fotografias.html">Fotografias</a></li>
+                    <li class="item"> <a href="artistas.html">Artistas</a></li>
+                    <li class="item"> <a href="contatos.html">Contactos </a></li>
+                </ul>
+            </div>
+            <div class="button-log">
+                <button><a href="login.html">Entrar</a></button>
+
+            </div>
+            <div class="mobile-icon">
+                <button  onclick="menuShow()"><img class="icon" width="52px" height="52px" src="icone.jpg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="item"> <a href="galeria.html">Ínicio</a></li>
+                <li class="item"> <a href="pinturas.html">Pinturas </a></li>
+                <li class="item"> <a href="esculturas.html">Escultura </a></li>
+                <li class="item"> <a href="desenhos.html">Desenhos </a></li>
+                <li class="item"> <a href="fotografias.html">Fotografias</a></li>
+                <li class="item"> <a href="artistas.html">Artistas</a></li>
+                <li class="item"> <a href="contatos.html">Contactos </a></li>
+            </ul>
+            <div class="button-log">
+                <button><a href="">Entrar</a></button>
+    
+            </div>
+        </div>
+        
+     </header>
+     <HR ALIGN=center WIDTH=100% SIZE=3 COLOR=black NOSHADE>
+        
+    <!--CORPO-->
+    <main>
+        <div class="repositorio">
+            <div class="content">
+                <div class="left-side">
+                    <div class="address-details">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="topic">Endereço</div>
+                        <div class="text-one">Rua Rainha Njinga Mbande, nº 22</div>
+                        <div class="text-two">Mutamba, Luanda</div>
+                    </div>
+                    <div class="address-details">
+                        <i class="fas fa-phone-alt"></i>
+                        <div class="topic">Telefone</div>
+                        <div class="text-one">+244 948344824</div>
+                        <div class="text-two">+244 935555500</div>
+                    </div>
+                    <div class="address-details">
+                        <i class="fas fa-envelope"></i>
+                        <div class="topic">Email</div>
+                        <div class="text-one">kinwanecomercial@gmail.com</div>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="topic-box">Envia a sua mensagem</div>
+                    <p>
+                        Queremos ouvir você! Se você tem alguma dúvida, sugestão ou deseja 
+                        saber mais sobre as nossas exposições, obras e artistas, não hesite em nos contatar. 
+                        Estamos aqui para ajudar e proporcionar a melhor experiência possível.
+                    </p>
+                    <form action="" id="form">
+                        <div class="input-box"><input type="text" placeholder="Digite o seu nome" class="inputs required" oninput="validarNome()"></div>
+                        <span class="span-required">O nome deve ter no min 3 carateres</span>
+                        <div class="input-box"><input type="text" placeholder="Digite o seu email" class="inputs required" oninput="emailValidar()"></div>
+                        <span class="span-required">Digite um email valido</span>
+                        <div class="input-box message-box"><textarea name="" id="" placeholder="Digite a sua mensagem"></textarea></div>
+                    </form>
+                    <div class="button">
+                        <input type="button" value="Enviar" id="submitButton" method="POST">
+                    </div>
+                    <div id="confirmationMessage" style="display: none;">
+                        <p>Formulário enviado com sucesso!</p>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+
+    <!--FOOTER-->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Sobre</h4>
+                    <ul>
+                        <li><a href="sobreNos.html">sobre nos</a></li>
+                        <li><a href="sobreNos.html">informaçoes legais</a></li>
+                        <li><a href="">nossos serviços</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Ver Arte</h4>
+                    <ul>
+                        <li><a href="galeria.html">Ultimas Obras</a></li>
+                        <li><a href="pinturas.html">Pinturas</a></li>
+                        <li><a href="esculturas.html">Escultura</a></li>
+                        <li><a href="desenhos.html">Desenhos</a></li>
+                        <li><a href="">Obras Originais</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Para quem?</h4>
+                    <ul>
+                        <li><a href="">Amantes de arte</a></li>
+                        <li><a href="artistas.html">Artistas</a></li>
+                        <li><a href="">Escultores</a></li>
+                        <li><a href="">Desenhistas</a></li>
+                        <li><a href="">Agente de Arte</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Siga-nos</h4>
+                    <div class="midia">
+                        <a href="https://www.facebook.com/?hrc=1&paipv=0&eav=Afa0cQKyYNvMSW9lsu97sN9BYknx1Y1yTCMDWRnmYDibIDWCSVicOV4V3ii8nJlTQ5E&wtsid=rdr_0EdfAWiLEmjFaIDsY&refsrc=deprecated&_rdr"><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/killer.chx?igsh=MWdsMXFqOTRlYWQyNA%3D%3D&utm_source=qr"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <button id="back-to-top" onclick="scrollToTop()">Voltar ao Início</button>
+                </div>
+            </div>
+        </div>
+        <div class="bottom"><p>&copy; 2024 Kinwane Nascimento. All rights reserved</p></div>
+
+    </footer>
+
+
+</body>
+<script>
+    const form = document.getElementById('form');
+    const campos = document.querySelectorAll('.required');
+    const spans = document.querySelectorAll('.span-required')
+    const emailRegex = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
+
+    document.getElementById('submitButton').addEventListener('click', (event) => {
+        event.preventDefault();
+        validarNome();
+        emailValidar();
+        if (form.checkValidity()) {
+            //document.getElementById('confirmationMessage').style.display = 'block';
+    } else {
+        // Se o formulário não for válido, exibe uma mensagem de erro ou destaca os campos necessários
+        form.reportValidity();
+    }
+
+    });
+
+    function setError(index){
+        campos[index].style.border = '2px solid #e63636';
+        spans[index].style.display= 'block';
+    }
+    function removeError(index){
+        campos[index].style.border = '';
+        spans[index].style.display= 'none';
+    }
+    function validarNome(){
+        if(campos[0].value.length < 3)
+        {
+            setError(0);
+        }
+        else
+            removeError(0)
+    }
+    function emailValidar(){
+        if(!emailRegex.test(campos[1].value))
+            setError(1);
+        else
+            removeError(1);
+    }
+    
+</script>
+</html>
